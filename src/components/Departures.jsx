@@ -63,7 +63,7 @@ export default () => {
       fontWeight: "bold",
       fontFamily: "sans-serif"
     }}>
-      <div style={{display: "grid", gridTemplateColumns: "1fr 1fr", columnGap: "5vw"}}>
+      <div style={{display: "grid", gridTemplateColumns: "1fr 1fr", columnGap: "1vw"}}>
         <h1 style={{color: "white", textAlign: "right"}}>NYDALEN</h1>
         <h1 style={{color: "white", textAlign: "left"}}>{whenLoaded}</h1>
       </div>
