@@ -94,7 +94,8 @@ const DepartureItem = ({ departure }) => {
       display: "grid",
       gridTemplateColumns: "1fr 4fr 1fr",
       alignItems: "center",
-      margin: "1px"
+      margin: "1px",
+      height:"50%"
     }}>
       <p style={{
         backgroundColor: transportColor, 
