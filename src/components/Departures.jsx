@@ -37,7 +37,7 @@ export default () => {
       month: "long",
       day: "numeric"
     })
-    const time = new Date(timeLoaded).toLocaleTimeString("default", {
+    const time = new Date(timeLoaded).toLocaleTimeString("no-NO", {
       timeStyle: "short"
     })
     return `${date} ${time}`
