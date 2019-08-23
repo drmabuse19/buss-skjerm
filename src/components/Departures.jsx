@@ -101,14 +101,14 @@ const DepartureItem = ({ departure }) => {
         color: "white", 
         padding: "1.5vh", 
         margin: "0",
-        fontSize: "1.3em"
+        fontSize: "2.3em"
       }}>{publicCode}</p>
       <p style={{backgroundColor: "black", color: "white", textAlign: "left", paddingLeft: "2em"}}>{frontText}</p>
       <p style={{
         backgroundColor: "black", 
         color: "white",
         margin: "0",
-        fontSize: "1.2em"
+        fontSize: "2.2em"
       }}>{timeToDeparture} min</p>
     </div>
   )
