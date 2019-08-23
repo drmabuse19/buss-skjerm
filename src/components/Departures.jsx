@@ -66,7 +66,7 @@ export default () => {
     }}>
       <div style={{display: "grid", gridTemplateColumns: "1fr 1fr", columnGap: "3vw"}}>
         <h1 style={{color: "white", textAlign: "right"}}>NYDALEN</h1>
-        <h1 style={{color: "white", textAlign: "left", fontSize:"3.2em"}}>{whenLoaded}</h1>
+        <h1 style={{color: "white", textAlign: "left", fontSize:"5.2em", marginLeft: "40%"}}>{whenLoaded}</h1>
       </div>
       {deps.map((dep, i) => {
         if(i < 10) {
