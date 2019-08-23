@@ -59,6 +59,7 @@ export default () => {
 
   return (
     <div style={{
+      padding: "3vh 1.5vw",
       backgroundColor: "black",
       fontWeight: "bold",
       fontFamily: "sans-serif"
