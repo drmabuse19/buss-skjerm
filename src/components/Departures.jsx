@@ -66,7 +66,7 @@ export default () => {
     }}>
       <div style={{display: "grid", gridTemplateColumns: "1fr 1fr", columnGap: "3vw"}}>
         <h1 style={{color: "white", textAlign: "right"}}>NYDALEN</h1>
-        <h1 style={{color: "white", textAlign: "right", fontSize:"10ch", margin: "-40%"}}>{whenLoaded}</h1>
+        <h1 style={{color: "white", textAlign: "right", fontSize:"7ch", margin: "-20%"}}>{whenLoaded}</h1>
       </div>
       {deps.map((dep, i) => {
         if(i < 10) {
@@ -103,7 +103,9 @@ const DepartureItem = ({ departure }) => {
         color: "white", 
         margin: "0",
         fontSize: "2.3em",
-        width:"50%"
+        width:"50%",
+
+
       }}>{publicCode}</p>
       <p style={{backgroundColor: "black", color: "white", textAlign: "left", paddingLeft: "2em" ,fontSize: "2.2em"}}>{frontText}</p>
       <p style={{
