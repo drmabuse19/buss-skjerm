@@ -40,7 +40,7 @@ export default () => {
     const time = new Date(timeLoaded).toLocaleTimeString("it-IT", {
       timeStyle: "short"
     })
-    return `${date} ${time}`
+    return ` ${time}`
   }, [timeLoaded])
 
   if(deps.length < 1){
@@ -64,9 +64,9 @@ export default () => {
       fontWeight: "bold",
       fontFamily: "sans-serif"
     }}>
-      <div style={{display: "grid", gridTemplateColumns: "1fr 1fr", columnGap: "1vw"}}>
+      <div style={{display: "grid", gridTemplateColumns: "1fr 1fr", columnGap: "3vw"}}>
         <h1 style={{color: "white", textAlign: "right"}}>NYDALEN</h1>
-        <h1 style={{color: "white", textAlign: "left"}}>{whenLoaded}</h1>
+        <h1 style={{color: "white", textAlign: "left", fontSize:"3.2em"}}>{whenLoaded}</h1>
       </div>
       {deps.map((dep, i) => {
         if(i < 10) {
