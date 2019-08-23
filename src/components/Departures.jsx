@@ -48,8 +48,9 @@ export default () => {
       <div style={{
         height: "100%",
         display: "grid",
-        gridTemplateColumns: "80%",
-        placeItems: "center"
+        gridTemplateColumns: "1fr",
+        placeItems: "center",
+        marginBottom: "-10%"
       }}>
         <div className="loader">Loading...</div>
       </div>
