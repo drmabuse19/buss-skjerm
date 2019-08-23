@@ -99,7 +99,6 @@ const DepartureItem = ({ departure }) => {
       <p style={{
         backgroundColor: transportColor, 
         color: "white", 
-        padding: "1.5vh", 
         margin: "0",
         fontSize: "2.3em"
       }}>{publicCode}</p>
