@@ -48,7 +48,7 @@ export default () => {
       <div style={{
         height: "100%",
         display: "grid",
-        gridTemplateColumns: "1fr",
+        gridTemplateColumns: "80%",
         placeItems: "center"
       }}>
         <div className="loader">Loading...</div>
@@ -58,7 +58,6 @@ export default () => {
 
   return (
     <div style={{
-      padding: "10vh 5vw",
       backgroundColor: "black",
       fontWeight: "bold",
       fontFamily: "sans-serif"
