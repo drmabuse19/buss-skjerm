@@ -103,7 +103,7 @@ const DepartureItem = ({ departure }) => {
         margin: "0",
         fontSize: "2.3em"
       }}>{publicCode}</p>
-      <p style={{backgroundColor: "black", color: "white", textAlign: "left", paddingLeft: "2em"}}>{frontText}</p>
+      <p style={{backgroundColor: "black", color: "white", textAlign: "left", paddingLeft: "2em" ,fontSize: "2.2em"}}>{frontText}</p>
       <p style={{
         backgroundColor: "black", 
         color: "white",
