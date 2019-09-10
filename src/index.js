@@ -5,7 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'core-js/es6/map';
 import 'core-js/es6/set';
-import 'raf/polyfill'; //
+import 'raf/polyfill';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
