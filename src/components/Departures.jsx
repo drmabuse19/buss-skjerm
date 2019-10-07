@@ -65,8 +65,8 @@ export default () => {
       fontFamily: "sans-serif"
     }}>
       <div style={{display: "grid", gridTemplateColumns: "1fr 1fr", columnGap: "3vw"}}>
-        <h1 style={{color: "white", textAlign: "right"}}>NYDALEN</h1>
-        <h1 style={{color: "white", textAlign: "right", fontSize:"7ch", margin: "-20%"}}>{whenLoaded}</h1>
+        <h1 style={{color: "white", textAlign: "right"}}>Nydalen  </h1>
+        <h1 style={{color: "gray", textAlign: "right", fontSize:"4ch", margin: "0.1%", position:"absolute", marginLeft:"80%"}}>{whenLoaded}</h1>
       </div>
       {deps.map((dep, i) => {
         if(i < 10) {
