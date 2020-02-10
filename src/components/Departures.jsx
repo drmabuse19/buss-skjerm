@@ -14,7 +14,7 @@ export default () => {
 
   const getDepartures = async () => {
     getNydalenDepartures().then(nydalenDeps => {
-      const filteredDeps = filterDepartures(nydalenDeps, "Nydalen")
+      const filteredDeps = filterDepartures(nydalenDeps, "Teltusbakken")
       setDeps(filteredDeps)
       setTimeLoaded(Date.now())
     })
