@@ -14,7 +14,7 @@ export default () => {
 
   const getDepartures = async () => {
     getNydalenDepartures().then(nydalenDeps => {
-      const filteredDeps = filterDepartures(nydalenDeps, "Teltusbakken")
+      const filteredDeps = filterDepartures(nydalenDeps, "Nydalen")
       setDeps(filteredDeps)
       setTimeLoaded(Date.now())
     })
@@ -65,7 +65,7 @@ export default () => {
       fontFamily: "sans-serif"
     }}>
       <div style={{display: "grid", gridTemplateColumns: "1fr 1fr", columnGap: "3vw"}}>
-        <h1 style={{color: "white", textAlign: "right"}}>Telthusbakken  </h1>
+        <h1 style={{color: "white", textAlign: "right"}}>Nydalen  </h1>
         <h1 style={{color: "gray", textAlign: "right", fontSize:"4ch", margin: "0.1%", position:"absolute", marginLeft:"80%"}}>{whenLoaded}</h1>
       </div>
       {deps.map((dep, i) => {
